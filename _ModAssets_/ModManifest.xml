@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModManifest buildID="d01e68b1-b512-4b77-92d3-f4af160efce8">
+  <Mod name="GridMap" author="hpgbproductions" versionMajor="1" versionMinor="0" loadPriority="1000" lastUpdated="2021-03-19T08:01:49.9676383Z" apiVersion="1.0.0.0" description="Map with customizable grid and checkerboard pattern.&#xA;&#xA;Also comes with ADAMSMOD utility (must run activation command before use)">
+    <Steam title="" visibility="Public" previewPath="" language="English" tags="">
+      <description></description>
+    </Steam>
+    <GameObjects>
+      <GameObject name="adamsmod" path="Assets/_ModAssets_/adamsmod.prefab" />
+      <GameObject name="checker" path="Assets/_ModAssets_/checker.prefab" />
+    </GameObjects>
+    <Assets>
+      <Asset path="Assets/Materials/bug.mat" />
+      <Asset path="Assets/Materials/bug2.mat" />
+      <Asset path="Assets/Materials/checker.mat" />
+      <Asset path="Assets/Materials/checkerd.mat" />
+      <Asset path="Assets/Materials/cmapbase.mat" />
+      <Asset path="Assets/Materials/cmapgrid.mat" />
+      <Asset path="Assets/Materials/cmapup.mat" />
+      <Asset path="Assets/Materials/custom.mat" />
+      <Asset path="Assets/Materials/grayd.mat" />
+      <Asset path="Assets/Materials/grayl.mat" />
+      <Asset path="Assets/Materials/grida.mat" />
+      <Asset path="Assets/Materials/mirror.mat" />
+      <Asset path="Assets/Materials/supply/an871k4o1sn51.png" />
+      <Asset path="Assets/Materials/supply/bug2.bmp" />
+      <Asset path="Assets/Materials/supply/checker.bmp" />
+      <Asset path="Assets/Materials/supply/cmapup.bmp" />
+      <Asset path="Assets/Materials/supply/grid.png" />
+      <Asset path="Assets/Materials/supply/grida.png" />
+      <Asset path="Assets/Materials/sus.mat" />
+      <Asset path="Assets/Materials/tand.mat" />
+      <Asset path="Assets/Materials/tanl.mat" />
+      <Asset path="Assets/Materials/tanm.mat" />
+      <Asset path="Assets/Materials/void.mat" />
+      <Asset path="Assets/Materials/white.mat" />
+      <Asset path="Assets/New Terrain.asset" />
+    </Assets>
+    <MaterialShaderMap>
+      <Material name="bug" shader="Unlit/Color" />
+      <Material name="bug2" shader="Unlit/Texture" />
+      <Material name="checker" shader="Standard" />
+      <Material name="checkerd" shader="Standard" />
+      <Material name="cmapbase" shader="Standard" />
+      <Material name="cmapgrid" shader="Standard" />
+      <Material name="cmapup" shader="Standard" />
+      <Material name="custom" shader="Standard" />
+      <Material name="grayd" shader="Standard" />
+      <Material name="grayl" shader="Standard" />
+      <Material name="grida" shader="Standard" />
+      <Material name="mirror" shader="Standard" />
+      <Material name="sus" shader="Standard" />
+      <Material name="tand" shader="Standard" />
+      <Material name="tanl" shader="Standard" />
+      <Material name="tanm" shader="Standard" />
+      <Material name="void" shader="Unlit/Color" />
+      <Material name="white" shader="Standard" />
+    </MaterialShaderMap>
+    <Assemblies>
+      <Assembly name="GridMap-Assembly-CSharp.dll" path="Assets/_ModAssets_/GridMap-Assembly-CSharp.dll.bytes" isProjectAssembly="true" />
+    </Assemblies>
+    <Sections>
+      <SimplePlanesMod apiVersion="1.0.0.0">
+        <Maps>
+          <Map name="GridMap" description="10km flat ground. Toggle between a grid or checkerboard. Colors and square size are customizable." path="Assets/_ModAssets_/checker.prefab" allowSandbox="true" />
+        </Maps>
+        <Levels />
+        <Parts />
+        <DesignerPlugins />
+        <MapPlugins />
+        <PersistentObjects>
+          <PersistentObject objectName="adamsmod" />
+        </PersistentObjects>
+      </SimplePlanesMod>
+    </Sections>
+  </Mod>
+</ModManifest>
